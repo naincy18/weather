@@ -1,43 +1,63 @@
-🌤️ Weather Dashboard App
+# 🌤️ Weather App
 
-A simple and interactive weather application built with JavaScript using the OpenWeather API.
+A simple and responsive weather application that displays current weather information and a 5-day forecast for any city.
 
-🚀 Features
-🔍 Search weather by city name
-🌡️ Displays temperature and weather condition
-🌤️ Weather icons
-⏳ Loading state while fetching data
-❌ Error handling (invalid city, API issues)
-🧠 Search history (saved using localStorage)
-🎨 Dynamic background based on weather
-🛠️ Tech Stack
-HTML
-CSS
-JavaScript (Vanilla)
-OpenWeather API
-📸 Screenshot
-![alt text](assets/screenshot.png)
+The project uses the OpenWeather API to fetch weather data and a Node.js/Express backend to securely handle the API request.
 
+## ✨ Features
 
+- 🔍 Search weather by city name
+- 🌡️ Current temperature
+- 🌤️ Weather condition and description
+- 🌡️ Feels-like temperature
+- 💧 Humidity
+- 💨 Wind speed
+- 👁️ Visibility
+- 📊 Atmospheric pressure
+- ☁️ Cloudiness
+- 📅 5-day weather forecast
+- 📍 Current location weather
+- 🕘 Search history
+- 🎨 Dynamic background based on weather condition
+- 🌧️ Rain animation
+- ❄️ Snow animation
+- ☀️ Sunny weather animation
+- ⛈️ Thunderstorm animation
+- 📱 Responsive user interface
 
+## 🛠️ Technologies Used
 
+### Frontend
+- HTML
+- CSS
+- JavaScript
 
+### Backend
+- Node.js
+- Express.js
+- Axios
+- CORS
+- dotenv
 
+### API
+- OpenWeather API
 
-📚 What I Learned
-How to fetch data from an API using fetch
-Using async/await for cleaner asynchronous code
-Handling errors in real-world applications
-Managing state with localStorage
-Improving user experience with loading states and UI feedback
-⚠️ Note
+## 📁 Project Structure
 
-This project uses a public API key for learning purposes. In production, API keys should be secured using a backend or environment variables.
-
-📌 Future Improvements
-5-day weather forecast
-Auto-detect user location
-UI enhancements and animations
-Convert to React
-🙌 Author
+```text
+weatherApp/
+│
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   ├── package-lock.json
+│   └── .env
+│
+├── .gitignore
+└── README.md
 
